@@ -11,7 +11,7 @@ class Settings {
     public static $db_password = 'alessio';
     public static $db_name='easyparking';
     
-    private static $appPath='/amm2015/speroniAlessio/FPAMM15/index.php';
+    private static $appPath='/amm2015/speroniAlessio/FPAMM15/';
     public static function getApplicationPath(){return self::$appPath;}
     /*
     public static function getApplicationPath() {
