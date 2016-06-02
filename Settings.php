@@ -11,17 +11,9 @@ class Settings {
     public static $db_password = 'alessio';
     public static $db_name='easyparking';
     
-<<<<<<< HEAD
-<<<<<<< HEAD
+
     private static $appPath='/amm2015/speroniAlessio/FPAMM15/';
-=======
-    private static $appPath='localhost/FPAMM15/index.php';
->>>>>>> parent of 811caf8... Update Settings.php
-=======
-    private static $appPath='/amm2015/speroniAlessio/FPAMM15/index.php';
->>>>>>> origin/prova
-    public static function getApplicationPath(){return self::$appPath;}
-    /*
+
     public static function getApplicationPath() {
         if (!isset(self::$appPath)) {
             // restituisce il server corrente
@@ -42,7 +34,7 @@ class Settings {
         }
         
         return self::$appPath;
-    }*/
+    }
 
 }
 
